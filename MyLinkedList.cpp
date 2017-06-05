@@ -92,4 +92,8 @@ void MyLinkedList::erase(int index){
     
 }
 
+void MyLinkedList::clear(){
+    
+}
+
 

@@ -26,6 +26,7 @@ public:
     virtual int front() = 0;
     virtual int back() = 0;
     virtual void erase(int) = 0;
+    virtual void clear() = 0;
 
 protected:
     unsigned int m_size{0};

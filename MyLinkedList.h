@@ -32,6 +32,7 @@ public:
         virtual int front() override;
         virtual int back() override;
         virtual void erase(int) override;
+        virtual void clear() override;
 
 protected:
     class Node {

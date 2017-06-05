@@ -64,6 +64,10 @@ void MyVector::erase(int index){
 
 }
 
+void MyVector::clear(){
+
+}
+
 std::string MyVector::toString() const {
     std::string str{'['};
 
